@@ -75,7 +75,7 @@ a[href$=".pdf"]:after {
     display: inline-block;
     width: 24px;
     height: 24px;
-    background: url(data/PDF_24.png) no-repeat;
+    background: url(PDF_24.png) no-repeat;
 }
 
 
