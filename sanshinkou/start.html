@@ -17,82 +17,51 @@
 
             <!-- #mainimage begin -->
             <div id="mainimage">
-                <img src="images/mainimage.jpg" alt="メイン画像">
-                <ul>
-                    <!--
-                    <li><a href="#">イントロダクション</a></li>
-                    -->
-                    <li><a href="#security">IoTシステムのセキュリティ～自動車を中心として～</a></li>
-                    <li><a href="#data_mining">データマイニング概論</a></li>
-                    <li><a href="#reinforcement_learning">強化学習概論</a></li>
-                    <li><a href="#industrial_robot">産業用ロボットの概要</a></li>
-                    <li><a href="#embedded_system">組込みシステム概論</a></li>
-                    <li><a href="#wireless_network">無線ネットワーク概論</a></li>
-                </ul>
+                <img src="data/main_image.jpg" alt="メイン画像">
             </div>
             <!-- #mainimage end -->
+
+            <!-- #contents begin -->
+            <div id="contents">
+                <h1>本講座（コース）の構成</h1>
+                <div id="left_iot" class="base_layer">
+                    <h2>IoT</h2>
+                    <a href="#embedded_system" class="subject_panel">組込みシステム概論</a>
+                    <a href="#wireless_network" class="subject_panel">無線ネットワーク概論</a>
+                    <a href="#security" class="subject_panel">IoTシステムのセキュリティ～自動車を中心として～</a>
+                </div>
+                <div id="top_ai" class="base_layer">
+                    <h2>AI</h2>
+                    <a href="#reinforcement_learning" class="subject_panel">強化学習概論</a>
+                </div>
+                <div id="top_robot" class="base_layer">
+                    <h2>ロボット</h2>
+                    <a href="#industrial_robot" class="subject_panel">産業用ロボットの概要</a>
+                </div>
+                <div id="bottom" class="base_layer">
+                    <h2>データサイエンス</h2>
+                    <a href="#data_mining" class="subject_panel">データマイニング概論</a>
+                </div>
+            </div>
+            <!-- #contents end -->
 
             <!-- #subject begin -->
             <div id="subject">
                 <dl>
                     <div class="box-shadow">
                         <dt>
-                            <a id="data_mining" href="data/test.html">
-                                <h2>
-                                    データマイニング概論　難易度★☆☆☆☆
-                                </h2>
-                            </a>
-                        </dt>
-                        <dd>
-                            <ul>
-                                <li>・データと知識発見 00:45-</li>
-                                <li>・データマイニングの基礎技術 13:19-</li>
-                                <li>　-決定木分析 16:44-</li>
-                                <li>　-クラスター分析（クラスタリング） 22:56-</li>
-                                <li>　-アソシエーション分析 29:34-</li>
-                                <li>　-主成分分析 37:18-</li>
-                                <li>　-回帰分析 40:25-</li>
-                                <li>・様々なメディアを対象としたデータマイニング 47:27-</li>
-                                <li>・おわりに 56:51-</li>
-                            </ul>
-                            <a href="data/data_mining.pdf" class="pdf_link">印刷用PDF</a>
-                        </dd>
-                    </div>
-
-                    <div class="box-shadow">
-                        <dt>
-                            <a id="industrial_robot" href="data/test.html">
-                                <h2>
-                                    産業用ロボットの概要　難易度★★☆☆☆
-                                </h2>
-                            </a>
-                        </dt>
-                        <dd>
-                            <ul>
-                                <li>・ロボットアームの用途と種類 00:59-</li>
-                                <li>・自由度 05:02-</li>
-                                <li>・ロボットシステムの一般的構成 06:27-</li>
-                                <li>・リンク機構のキネマティクス 07:51-</li>
-                                <li>・小テスト 23:57-</li>
-                                <li>・運動学 26:44-</li>
-                                <li>・制御 50:50-</li>
-                                <li>・教示 53:59-</li>
-                                <li>・最近のトピック 57:05-</li>
-                                <li>・まとめ 59:55-</li>
-                            </ul>
-                            <a href="data/industrial_robot.pdf" class="pdf_link">印刷用PDF</a>
-                        </dd>
-                    </div>
-
-                    <div class="box-shadow">
-                        <dt>
-                            <a id="embedded_system" href="data/test.html">
+                            <a id="embedded_system" href="data/embedded_system.mp4">
                                 <h2>
                                     組込みシステム概論　難易度★★★☆☆
                                 </h2>
                             </a>
                         </dt>
                         <dd>
+                            <p>講師：弘中 哲夫（広島市立大学 教授）</p>
+                            <p>
+                                概要：小型コンピュータとそれを組み込んだシステムを具体的な応用例を交えながら紹介<br>　　　組込みシステムで何ができるか？どんな可能性を秘めているか？を中心に解説
+                            </p>
+                            <p>動画内のトピックとその再生時間：</p>
                             <ul>
                                 <li>・組込みシステムとは 00:54-</li>
                                 <li>・組込みシステムで使われるプロセッサ 09:30-</li>
@@ -107,13 +76,18 @@
 
                     <div class="box-shadow">
                         <dt>
-                            <a id="wireless_network" href="data/test.html">
+                            <a id="wireless_network" href="data/wireless_network.mp4">
                                 <h2>
                                     無線ネットワーク概論　難易度★★★★☆
                                 </h2>
                             </a>
                         </dt>
                         <dd>
+                            <p>講師：大田 知行（広島市立大学 准教授）</p>
+                            <p>
+                                概要：無線ネットワークの仕組みを中心に解説<br　　　>また、無線ネットワークを利用したサービスなどを紹介
+                            </p>
+                            <p>動画内のトピックとその再生時間：</p>
                             <ul>
                                 <li>・無線ネットワークの概要 00:07-</li>
                                 <li>・無線LAN 03:12-</li>
@@ -134,13 +108,18 @@
 
                     <div class="box-shadow">
                         <dt>
-                            <a id="security" href="data/test.html">
+                            <a id="security" href="data/security.mp4">
                                 <h2>
                                     IoTシステムのセキュリティ～自動車を中心として～ 難易度★★★★☆
                                 </h2>
                             </a>
                         </dt>
                         <dd>
+                            <p>講師：井上 博之（広島市立大学 准教授）</p>
+                            <p>
+                                概要：IoTシステムの危険性について解説<br>　　　自動車を中心に、様々なIoTシステムに潜む危険性を紹介
+                            </p>
+                            <p>動画内のトピックとその再生時間：</p>
                             <ul>
                                 <li>・IoTシステムの脅威事例 00:53-</li>
                                 <li>・IoTシステムとしてのコネクティッドカーの情報セキュリティと攻撃事例 08:18-</li>
@@ -154,13 +133,18 @@
 
                     <div class="box-shadow">
                         <dt>
-                            <a id="reinforcement_learning" href="data/test.html">
+                            <a id="reinforcement_learning" href="data/reinforcement_learning.mp4">
                                 <h2>
                                     強化学習概論　難易度★★★★★
                                 </h2>
                             </a>
                         </dt>
                         <dd>
+                            <p>講師：神尾 武司（広島市立大学 准教授）</p>
+                            <p>
+                                概要：人工知能と機械学習の概要を解説<br>　　　特に近年注目されている技術を紹介
+                            </p>
+                            <p>動画内のトピックとその再生時間：</p>
                             <ul>
                                 <li>・機械学習入門 00:39-</li>
                                 <li>・強化学習概論 09:46- （ハイレベルまで知りたい受講者向け）</li>
@@ -168,6 +152,63 @@
                                 <li>・小テスト 43:21-</li>
                             </ul>
                             <a href="data/reinforcement_learning.pdf" class="pdf_link">印刷用PDF</a>
+                        </dd>
+                    </div>
+
+                    <div class="box-shadow">
+                        <dt>
+                            <a id="industrial_robot" href="data/industrial_robot.mp4">
+                                <h2>
+                                    産業用ロボットの概要　難易度★★☆☆☆
+                                </h2>
+                            </a>
+                        </dt>
+                        <dd>
+                            <p>講師：岩城 敏（広島市立大学 教授）</p>
+                            <p>概要：産業用ロボットの基礎をアーム型ロボットを中心に解説<br>　　　最新のトピックスを交えながらロボット技術の現状を紹介</p>
+                            <p>動画内のトピックとその再生時間：</p>
+                            <ul>
+                                <li>・ロボットアームの用途と種類 00:59-</li>
+                                <li>・自由度 05:02-</li>
+                                <li>・ロボットシステムの一般的構成 06:27-</li>
+                                <li>・リンク機構のキネマティクス 07:51-</li>
+                                <li>・小テスト 23:57-</li>
+                                <li>・運動学 26:44-</li>
+                                <li>・制御 50:50-</li>
+                                <li>・教示 53:59-</li>
+                                <li>・最近のトピック 57:05-</li>
+                                <li>・まとめ 59:55-</li>
+                            </ul>
+                            <a href="data/industrial_robot.pdf" class="pdf_link">印刷用PDF</a>
+                        </dd>
+                    </div>
+
+                    <div class="box-shadow">
+                        <dt>
+                            <a id="data_mining" href="data/data_mining.mp4">
+                                <h2>
+                                    データマイニング概論　難易度★☆☆☆☆
+                                </h2>
+                            </a>
+                        </dt>
+                        <dd>
+                            <p>講師：田村 慶一（広島市立大学 准教授）</p>
+                            <p>
+                                概要：データマイニングでできることを応用例を交えながら解説<br>　　　ビッグデータ活用法についても紹介
+                            </p>
+                            <p>動画内のトピックとその再生時間：</p>
+                            <ul>
+                                <li>・データと知識発見 00:45-</li>
+                                <li>・データマイニングの基礎技術 13:19-</li>
+                                <li>　-決定木分析 16:44-</li>
+                                <li>　-クラスター分析（クラスタリング） 22:56-</li>
+                                <li>　-アソシエーション分析 29:34-</li>
+                                <li>　-主成分分析 37:18-</li>
+                                <li>　-回帰分析 40:25-</li>
+                                <li>・様々なメディアを対象としたデータマイニング 47:27-</li>
+                                <li>・おわりに 56:51-</li>
+                            </ul>
+                            <a href="data/data_mining.pdf" class="pdf_link">印刷用PDF</a>
                         </dd>
                     </div>
 
