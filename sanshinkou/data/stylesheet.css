@@ -199,6 +199,26 @@ div#subject p{
 }
 
 /* ========================================
+	プレスタート
+========================================= */
+div#prestart h1{
+    text-align: center;
+    font-size: 28px;
+    padding: 28px 0;
+}
+
+div#prestart h2{
+    font-size: 20px;
+    padding: 10px;
+}
+
+div#prestart ul{
+    padding-left: 10px;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+
+/* ========================================
 	フッター
 ========================================= */
 footer{
